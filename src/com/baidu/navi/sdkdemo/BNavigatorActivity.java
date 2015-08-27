@@ -26,6 +26,7 @@ public class BNavigatorActivity extends Activity{
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		//创建NmapView
+		int i = 0;
 		if (Build.VERSION.SDK_INT < 14) {
             BaiduNaviManager.getInstance().destroyNMapView();
         }
